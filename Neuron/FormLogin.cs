@@ -29,7 +29,8 @@ namespace Neuron
 
         private void linkLabelCreateAccount_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            FormCreateUser form = new FormCreateUser();
+            form.ShowDialog();
         }
     }
 }
